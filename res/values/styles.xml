@@ -1,0 +1,54 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <!--
+    <style name="Switch" >
+        <item name="track">@drawable/switch_track_holo_dark</item>
+        <item name="thumb">@drawable/switch_inner_holo_dark</item>
+        <item name="switchTextAppearance">@android:style/TextAppearance.Small</item>
+        <item name="textOn">@string/capital_on</item>
+        <item name="textOff">@string/capital_off</item>
+        <item name="thumbTextPadding">12dip</item>
+        <item name="switchMinWidth">96dip</item>
+        <item name="switchPadding">16dip</item>
+    </style>
+    -->
+
+    <style name="Theme" parent="android:Theme"></style>
+
+    <style name="MyCheckBox" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/switch_lock</item>
+        <item name="android:minWidth">60dip</item>
+    </style>
+    <!-- switch -->
+
+    <string name="hello">Hello World!</string>
+    <string name="capital_on">On</string>
+    <string name="capital_off">Off</string>
+    
+    <style 
+        name="btn_number_keyboard"
+        >
+        <item name="android:background">@drawable/btn_number_key</item>
+        <item  name="android:textColor">@drawable/num_key_font_color</item>
+    </style>
+    
+    
+
+</resources>

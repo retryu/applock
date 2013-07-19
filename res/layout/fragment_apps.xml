@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    tools:context=".MainActivity" >
+
+    <RelativeLayout
+        android:id="@+id/Layout_Head"
+        android:layout_width="fill_parent"
+                     android:visibility="gone"
+        android:layout_height="60dip" >
+
+        <Button
+            android:id="@+id/Btn_Recommend_Mode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/recommend_mode"
+            android:textColor="#333"
+            android:visibility="gone"
+            android:textSize="15sp" />
+
+        <com.widget.LockSwitch
+            android:id="@+id/Switch_Lock"
+            style="@style/MyCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+    
+            android:layout_centerVertical="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/Switch_Lock"
+            android:text="@string/lock_all" >
+        </TextView>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="2dip"
+            android:layout_alignParentBottom="true"
+            android:background="#33b5e5" >
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/switch_lock_alert" />
+
+    <ListView
+        android:id="@+id/ListView_App"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/Layout_Head"
+        android:layout_marginLeft="10dip"
+        android:background="#ffffff"
+        android:layout_marginRight="10dip" >
+    </ListView>
+
+</RelativeLayout>

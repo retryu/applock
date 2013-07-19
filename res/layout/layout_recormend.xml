@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minHeight="50dip"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_centerVertical="true"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/Tv_Title"
+            android:text="123"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/Tv_Hint"
+             android:text="123"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </TextView>
+    </LinearLayout>
+    
+    <CheckBox 
+         android:layout_centerVertical="true"
+        android:id="@+id/Switch_Item"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Main -->
+    <string name="lock_all">开启锁</string>
+
+    <!-- recormoned -->
+    <string name="recormond_setting">系统设置</string>
+    <string name="recormond_privacy">个人隐私</string>
+    <string name="recormond_program">程序</string>
+    <string name="hint_setting">防止智能锁被卸载或者强行关闭</string>
+    <string name="hint_privacy">防止个人照片和视频被偷窥</string>
+    <string name="hint_program">防止安装和卸载程序</string>
+    <string name="menu_search">搜索</string>
+    <string name="app_name">程序锁</string>
+    <string name="action_settings">设置</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="ok">确认</string>
+    <!-- alert -->
+
+    <string name="alery_wrong_pw">密码错误，请重新输入</string>
+    <string name="to_short">密码长度需大于3</string>
+    <!-- setting -->
+    <string name="input_old_pwd">请输入密码</string>
+    <string name="input_new_pwd">请输入新密码</string>
+    <string name="change_password">修改密码</string>
+	<string  name="more">更多</string>
+	<string  name="setting">设置</string>
+	<string  name="feedBack">我要反馈</string>
+	<string  name="pattern">图案</string>
+	<string  name="text">文字密码</string>
+	<string  name="choice_type">选择密码类型</string>
+	<string 	name="cancel">取消</string>
+	<string  name="lock_programer">上锁</string>
+    <!-- other -->
+
+    <string name="lockscreen_access_pattern_start">Pattern started</string>
+    <!-- Accessibility description sent when the pattern times out and is cleared. [CHAR LIMIT=NONE] -->
+    <string name="lockscreen_access_pattern_cleared">Pattern cleared</string>
+    <!-- Accessibility description sent when user adds a cell to the pattern. [CHAR LIMIT=NONE] -->
+    <string name="lockscreen_access_pattern_cell_added">Cell added</string>
+    <!-- Accessibility description sent when user completes drawing a pattern. [CHAR LIMIT=NONE] -->
+    <string name="lockscreen_access_pattern_detected">Pattern completed</string>
+
+    <!-- lock -->
+    <string name="recommend_mode">推荐模式</string>
+    <string name="setPattern">设定图案</string>
+    <string  name="rest_password">请再次输入你的密码</string>
+    <string name="resetPattern">请再次输入你的图形密码</string>
+    <string name="presPattern">请再次输入你的图形密码</string>
+    <string name="first_set_pass">请先输入你的密码</string>
+	<string name="last_time">密码错误,你还有 x 次机会</string>
+   	<string  name="wrong_to_much">6次密码错误,请稍后输入</string>
+	<string  name="switch_lock_alert">程序锁已经关闭 </string>
+   		<!-- pattern  alert --> 
+   <string name="pw_not_same">两次密码不一致,请重新输入</string>
+	<string name="pw_cannot_same">密码不能和上次相同</string>   
+   	<string  name="pw_cannot_null">密码不能为空</string>
+   	<string  name="second_pw_should_same">二次密码不一致</string>
+   <string name="pw_had_set">密码已设置</string>
+    <string name="pw_wrong">密码错误</string>
+    <string name="please_set_pw">请输入密码</string>
+    <string name="pw_correct">密码正确</string>
+    
+    
+    
+    
+</resources>

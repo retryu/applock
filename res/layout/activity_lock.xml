@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+  <!--    <fragment
+        android:id="@+id/Fragment_OldLock"
+        android:name="com.acitivities.lock.OldPassTextFragment"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+        --> 
+        <FrameLayout 
+            android:id="@+id/content"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            
+            ></FrameLayout>
+
+</LinearLayout>

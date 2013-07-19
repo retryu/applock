@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	>
+	<item
+		android:state_pressed="true"
+		android:drawable="@drawable/num_key_selected_state" /> <!-- pressed -->
+	<item
+		android:state_enabled="false"
+		android:drawable="@drawable/num_key_selected_state" /> <!-- disabled -->
+	<item
+		android:state_enabled="true"
+		android:drawable="@drawable/num_key_unselected_state" /> <!-- default -->
+
+</selector>

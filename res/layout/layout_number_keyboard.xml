@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#00ffffff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#00ffffff"
+        android:layout_weight="1" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:background="#e9e9e9"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/key_one"
+                style="@style/btn_number_keyboard"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="1dip"
+                android:layout_marginTop="1dip"
+                android:layout_weight="1"
+                android:text="1"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/key_two"
+                style="@style/btn_number_keyboard"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="1dip"
+                android:layout_marginTop="1dip"
+                android:layout_weight="1"
+                android:text="2"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/key_three"
+                style="@style/btn_number_keyboard"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="1dip"
+                android:layout_weight="1"
+                android:text="3"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/key_four"
+                style="@style/btn_number_keyboard"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="1dip"
+                android:layout_marginTop="1dip"
+                android:layout_weight="1"
+                android:text="4"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/key_five"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="1dip"
+                android:layout_marginTop="1dip"
+                android:layout_weight="1"
+                android:background="@drawable/btn_number_key"
+                android:text="5"
+                android:textColor="@drawable/num_key_font_color"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/key_six"
+                style="@style/btn_number_keyboard"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="1dip"
+                android:layout_weight="1"
+                android:text="6"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/key_seven"
+                style="@style/btn_number_keyboard"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="1dip"
+                android:layout_marginTop="1dip"
+                android:layout_weight="1"
+                android:text="7"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/key_eight"
+                style="@style/btn_number_keyboard"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="1dip"
+                android:layout_marginTop="1dip"
+                android:layout_weight="1"
+                android:text="8"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/key_nine"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="1dip"
+                android:layout_weight="1"
+                android:background="@drawable/btn_number_key"
+                android:text="9"
+                android:textColor="@drawable/num_key_font_color"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/key_zero"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="1dip"
+                android:layout_marginTop="1dip"
+                android:layout_weight="1"
+                android:background="@drawable/btn_number_key"
+                android:text="0"
+                android:textColor="@drawable/num_key_font_color"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/key_delete"
+                style="@style/btn_number_keyboard"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="1dip"
+                android:layout_marginTop="1dip"
+                android:layout_weight="1"
+                android:text="del"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/key_ok"
+                style="@style/btn_number_keyboard"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="1dip"
+                android:layout_weight="1"
+                android:text="ok"
+                android:textSize="30sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
